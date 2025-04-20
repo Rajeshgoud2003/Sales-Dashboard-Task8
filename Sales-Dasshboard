@@ -1,0 +1,39 @@
+## Creating Sales Dashboard Using Power BI ##
+
+Step 2: Creating the Dashboard in Power BI
+
+A. Dataset
+
+Use the "Superstore” dataset.
+
+
+B. Data Preparation
+
+1. Load the dataset into Power BI.
+
+2. In Power Query, convert Order Date to Month-Year format:
+
+Go to Transform Data → Select Order Date → Format as MMM-YYYY
+
+
+C. Add Visuals
+
+1. Line Chart:
+     -> Axis: Month-Year
+     -> Value: Sales
+
+2. Bar Chart:
+      -> Axis: Region
+      -> Value: Sales
+
+3. Donut Chart:
+        -> Legend: Category
+        -> Value: Sales
+
+4. Use different colors to highlight top-performing areas
+
+
+D. Insights:
+1. West region had the highest sales in Q3.
+2. Technology category brought the highest profit margin.
+3. Sales peaked during November and December months.
